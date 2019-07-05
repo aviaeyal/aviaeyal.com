@@ -1,5 +1,6 @@
 body {
 	font-family: sans-serif;
+	margin: 0px;
 }
 
 .container {
@@ -7,3 +8,25 @@ body {
 	margin: 0 auto;
 	text-align: center;
 }
+
+.top-view{
+	display: grid;
+    color: #A8ADB8;
+    font-family: ProximaNova, Arial, sans-serif;
+    background-color: #fff;
+    box-shadow: rgba(0,18,71,.15) 0 0 28px;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "home . ." "header header . " "sublinks sublinks sublinks";
+}
+
+.top-view__header{
+	grid-area: header;
+    padding: 20px 20px 0px 40px;
+    color: #000021;
+    cursor: default;
+}
+
+.main-view{
+
+  }
